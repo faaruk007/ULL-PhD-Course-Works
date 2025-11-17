@@ -157,8 +157,6 @@ Female AUC: 0.9198 (n=958)
 
 
 ## References
-
-- ODIR-5K Dataset: https://www.kaggle.com/datasets/sir05/odir-5k
 - ImageNet Pretrained Models: https://pytorch.org/vision/main/models.html
 
 
