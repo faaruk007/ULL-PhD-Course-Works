@@ -1,4 +1,4 @@
-# Diabetic Retinopathy Detection from ODIR-5K Dataset
+# Automated Diabetic Retinopathy Detection from Color Fundus Images Using Transfer Learning: A Multi-Architecture Evaluation
 
 This project implements transfer learning models for detecting diabetic retinopathy (DR) from fundus images using the ODIR-5K dataset. The approach employs multiple pre-trained architectures with configurable parameter freezing for fine-tuning.
 
