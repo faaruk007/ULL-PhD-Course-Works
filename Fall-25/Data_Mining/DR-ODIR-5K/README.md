@@ -295,6 +295,13 @@ ULL-PhD-Course-Works/
 7. Validation-based model checkpointing
 8. Early stopping and learning rate scheduling
 9. Test set evaluation with detailed metrics
+![Main Architecture](https://github.com/user-attachments/assets/0d98edbc-e033-44f7-b6eb-53a1adbc8f10)
+
+
+
+
+
+
 
 ## Evaluation Metrics
 
@@ -341,7 +348,6 @@ This is the recommended and tested environment.
 
 ---
 
-
 ## System Requirements
 
 ### Kaggle Environment (Current/Tested)
@@ -353,7 +359,6 @@ This is the recommended and tested environment.
 - **Python**: 3.11 (pre-installed)
 - **CUDA/cuDNN**: Pre-configured
 - **Training Time**: 2-4 hours for 100 epochs
-
 
 
 
