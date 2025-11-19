@@ -135,14 +135,14 @@ jupyter notebook Full_Python_Scripts.ipynb
 
 For optimal performance matching Kaggle environment:
 
-| Component | Kaggle | Local (Recommended) | Local (Minimum) |
+| Component | Kaggle | Local (Recommended) |
 |-----------|--------|-------------------|-----------------|
-| GPU | Tesla P100 (16GB) | RTX 3080/3090/4080 (10GB+) | RTX 2060 (6GB) |
-| CUDA | 12.0+ | 12.1+ | 11.8+ |
-| cuDNN | 8.0+ | 8.0+ | 8.0+ |
-| RAM | 30GB | 16GB+ | 8GB |
-| Storage | 50GB+ | 50GB+ | 30GB+ |
-| Python | 3.11 | 3.9-3.11 | 3.8-3.11 |
+| GPU | Tesla P100 (16GB) | RTX 3080/3090/4080 (10GB+) |
+| CUDA | 12.0+ | 12.1+ | 
+| cuDNN | 8.0+ | 8.0+ | 
+| RAM | 30GB | 16GB+ | 
+| Storage | 50GB+ | 50GB+ | 
+| Python | 3.11 | 3.9-3.11 | 
 
 ---
 
