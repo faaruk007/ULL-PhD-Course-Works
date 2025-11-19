@@ -133,16 +133,6 @@ jupyter notebook Full_Python_Scripts.ipynb
 
 ### Local Machine Requirements (Similar to Kaggle)
 
-For optimal performance matching Kaggle environment:
-
-| Component | Kaggle | Local (Recommended) |
-|-----------|--------|-------------------|
-| GPU | Tesla P100 (16GB) | RTX 3080/3090/4080 (10GB+) |
-| CUDA | 12.0+ | 12.1+ | 
-| cuDNN | 8.0+ | 8.0+ | 
-| RAM | 30GB | 16GB+ | 
-| Storage | 50GB+ | 50GB+ | 
-| Python | 3.11 | 3.9-3.11 | 
 
 ---
 
