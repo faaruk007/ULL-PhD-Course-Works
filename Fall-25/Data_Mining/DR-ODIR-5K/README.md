@@ -260,7 +260,7 @@ ULL-PhD-Course-Works/
 
 ## References
 
-- ODIR-5K Dataset: [https://www.kaggle.com/datasets/sir05/odir-5k](https://odir2019.grand-challenge.org/dataset/)
+- ODIR-5K Dataset: https://odir2019.grand-challenge.org/dataset/
 - ImageNet Pretrained Models (Pytorch): https://pytorch.org/vision/main/models.html
 
 ## License
