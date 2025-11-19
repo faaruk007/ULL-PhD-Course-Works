@@ -4,18 +4,18 @@ This project implements transfer learning models for detecting diabetic retinopa
 
 ## Overview
 
-The pipeline extracts SLO fundus images from NPZ-formatted ODIR data and trains several deep learning models with class weight balancing to handle data imbalance. The training includes early stopping, learning rate scheduling, and comprehensive evaluation metrics including sensitivity, specificity, and gender-stratified AUC analysis.
+The pipeline extracts SLO fundus images from NPZ-formatted ODIR data and trains several deep learning models with class weight balancing to handle data imbalance. The training includes early stopping, learning rate scheduling, and comprehensive evaluation metrics including sensitivity, specificity and gender-stratified AUC analysis.
 
 ## Features
 
-- **Data Processing**: Extracts and preprocesses fundus images from NPZ format
-- **Multiple Architectures**: Supports VGG16, ResNet50, DenseNet121, EfficientNet-B0, and Vision Transformer
-- **Transfer Learning**: Flexible parameter freezing strategy (configurable percentage)
-- **Class Balancing**: Weighted sampling and loss weighting for imbalanced datasets
-- **Augmentation**: Random flips, rotations, and color jittering for train set
-- **Evaluation**: Comprehensive metrics including AUC, sensitivity, specificity, and gender-stratified analysis
-- **Visualization**: Training curves and confusion matrices for result analysis
-- **GPU Acceleration**: Full CUDA support for faster training
+- **Data Processing**: Extracts and preprocesses fundus images from NPZ format.
+- **Multiple Architectures**: Supports VGG-16, ResNet-50, DenseNet-121, EfficientNet-B0, and Vision Transformer.
+- **Transfer Learning**: Flexible parameter freezing strategy (configurable percentage).
+- **Class Balancing**: Weighted loss for imbalanced datasets.
+- **Augmentation**: Random flips, rotations, and color jittering for train set.
+- **Evaluation**: Comprehensive metrics including AUC, sensitivity, specificity, and gender-stratified analysis.
+- **Visualization**: Training curves and AUC matrices for result analysis.
+- **GPU Acceleration**: Full CUDA support for faster training.
 
 ## Installation
 
@@ -31,7 +31,7 @@ This is the primary environment where the model has been developed and tested on
 
 1. **Go to Kaggle** and create a new notebook
 2. **Add the dataset** (ODIR-5K):
-   - Search for "ODIR-5K" in Kaggle datasets
+   - Download the original datasets and upload it to Kaggle
    - Click **Add Data** → Select ODIR-5K
 
 3. **Upload the notebook** or create cells with:
@@ -243,7 +243,7 @@ The ODIR-5K dataset contains approximately 7,000 fundus images split into:
 - `slo_fundus`: Fundus image array
 - `dr_class`: Diabetic retinopathy classification label (0 or 1)
 - `male`: Gender information (optional, 0=female, 1=male)
-
+- And Other metadata information
 **Kaggle Dataset Path:**
 ```
 /kaggle/input/odir-dataset/ODIR_Data/
