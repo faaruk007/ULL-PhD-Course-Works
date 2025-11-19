@@ -125,36 +125,6 @@ pip install -r requirements.txt
 jupyter notebook Full_Python_Scripts.ipynb
 ```
 
----
-
-### Local Machine Requirements (Similar to Kaggle)
-
-
----
-
-### Configuration for Local Machine
-
-Update `CONFIG` in the notebook for your local paths:
-
-```python
-CONFIG = {
-    'DATA_DIR': '/path/to/ODIR_Data',  # Linux/Mac: ~/datasets/ODIR_Data
-                                        # Windows: C:\\datasets\\ODIR_Data
-    'SAVE_DIR': './checkpoints',       # Local checkpoints folder
-    'IMG_SIZE': 224,
-    'BATCH_SIZE': 64,  # Adjust if GPU OOM (try 32 or 16)
-    'NUM_EPOCHS': 100,
-    'LEARNING_RATE': 3e-4,
-    'WEIGHT_DECAY': 1e-3,
-    'FREEZE_PCT': 0.5,
-    'NUM_WORKERS': 4,  # Adjust based on CPU cores
-    'EARLY_STOPPING_PATIENCE': 8,
-    'LR_PATIENCE': 5,
-    'LR_FACTOR': 0.5,
-}
-```
-
----
 
 ### GPU Setup Verification
 
