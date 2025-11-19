@@ -303,7 +303,6 @@ ULL-PhD-Course-Works/
 - **Sensitivity (Recall)**: True positive rate
 - **Specificity**: True negative rate
 - **Gender-Stratified AUC**: Fairness assessment across male/female subgroups
-- **Confusion Matrix**: Visual representation of prediction patterns
 - **Classification Report**: Per-class precision, recall, and F1-score
 
 ## Usage
@@ -342,60 +341,6 @@ This is the recommended and tested environment.
 
 ---
 
-### Local Machine Workflow
-
-#### **Running the Notebook**
-
-```bash
-jupyter notebook Full_Python_Scripts.ipynb
-```
-
-#### **Key Steps**
-
-1. Update `CONFIG` dictionary with your data paths
-2. Adjust hyperparameters as needed
-3. Run all cells sequentially
-4. Models will be saved to `SAVE_DIR` automatically
-5. Review generated visualizations and metrics
-
-#### **For Different Operating Systems:**
-
-**Linux/macOS:**
-```bash
-# Activate environment
-source venv/bin/activate
-
-# Run notebook
-jupyter notebook Full_Python_Scripts.ipynb
-
-# Or run as Python script
-python Full_Python_Scripts.ipynb --to script --output full_script.py
-python full_script.py
-```
-
-**Windows PowerShell:**
-```bash
-# Activate environment
-venv\Scripts\Activate.ps1
-
-# Run notebook
-jupyter notebook Full_Python_Scripts.ipynb
-```
-
-### Example Output
-
-```
-Epoch 100: Train Loss=0.3245, Acc=0.8912, AUC=0.9234 | 
-           Val Loss=0.3512, Acc=0.8756, AUC=0.9145
-           
-ResNet50 - Test Results
-Accuracy: 0.8834
-AUC: 0.9256
-Sensitivity: 0.8745
-Specificity: 0.8901
-Male AUC: 0.9312 (n=956)
-Female AUC: 0.9198 (n=958)
-```
 
 ## System Requirements
 
@@ -409,35 +354,8 @@ Female AUC: 0.9198 (n=958)
 - **CUDA/cuDNN**: Pre-configured
 - **Training Time**: 2-4 hours for 100 epochs
 
-### Local Machine Recommendations
 
-| Spec | Recommended | Minimum | Note |
-|------|-------------|---------|------|
-| **GPU** | RTX 3080/3090/4080 (10GB+) | RTX 2060 (6GB) | Matches Kaggle P100 performance |
-| **VRAM** | 10GB+ | 6GB | Adjust batch size if lower |
-| **CPU** | Multi-core (8+ cores) | 4-core | For data loading |
-| **System RAM** | 16GB+ | 8GB | For smooth operation |
-| **Storage** | 50GB+ | 30GB | Dataset + checkpoints |
-| **CUDA** | 12.1+ | 11.8+ | Must match PyTorch |
-| **cuDNN** | 8.0+ | 8.0+ | For GPU acceleration |
-| **Python** | 3.9-3.11 | 3.8+ | Tested on 3.11 |
-| **OS** | Any (Linux/Windows/macOS) | Any | Linux recommended for performance |
 
-### GPU Memory Considerations
-
-**With different GPUs:**
-- **P100 (16GB)**: Batch size 64 optimal, full training supported ✅
-- **RTX 3090 (24GB)**: Batch size 64-128 possible
-- **RTX 3080 (10GB)**: Batch size 32-64 recommended
-- **RTX 2060 (6GB)**: Batch size 16-32, longer training time
-
-**If you get OOM errors, adjust CONFIG:**
-```python
-CONFIG = {
-    'BATCH_SIZE': 32,  # or 16 if still OOM
-    'NUM_WORKERS': 2,  # reduce from 4
-}
-```
 
 ## Performance Tips
 
@@ -460,11 +378,6 @@ If you use this code in your research, please cite:
 }
 ```
 
-Or in APA format:
-```
-Faruk. (2025). Diabetic Retinopathy Detection using Transfer Learning on ODIR-5K. 
-Retrieved from https://github.com/faaruk007/ULL-PhD-Course-Works/tree/main/Fall-25/Data_Mining/DR-ODIR-5K
-```
 
 ## References
 
@@ -476,20 +389,6 @@ Retrieved from https://github.com/faaruk007/ULL-PhD-Course-Works/tree/main/Fall-
 
 This project is licensed under the MIT License - see LICENSE file for details.
 
-## Troubleshooting
-
-**CUDA Out of Memory (OOM)**
-- Reduce `BATCH_SIZE` (e.g., 32 or 16)
-- Use smaller model (e.g., EfficientNet-B0 instead of ResNet50)
-
-**Slow Data Loading**
-- Reduce `NUM_WORKERS` or set to 0
-- Check disk I/O performance
-
-**Model Not Improving**
-- Increase `FREEZE_PCT` for more extensive fine-tuning
-- Adjust `LEARNING_RATE` (try 1e-4 or 5e-4)
-- Check data quality and label distribution
 
 ## Contact
 
