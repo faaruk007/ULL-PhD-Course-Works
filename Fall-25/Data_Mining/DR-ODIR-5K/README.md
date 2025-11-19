@@ -248,40 +248,6 @@ ULL-PhD-Course-Works/
 - **Gender-Stratified AUC**: Fairness assessment across male/female subgroups
 - **Classification Report**: Per-class precision, recall, and F1-score
 
-## Usage
-
-### Kaggle Notebook Workflow (Primary)
-
-This is the recommended and tested environment.
-
-**Quick Start on Kaggle:**
-
-1. Create a new Kaggle Notebook
-2. Add the ODIR-5K dataset (Search: "ODIR-5K" → Add Data)
-3. Copy the notebook code to Kaggle cells
-4. Update the CONFIG:
-   ```python
-   CONFIG = {
-       'DATA_DIR': '/kaggle/input/odir-dataset/ODIR_Data',
-       'SAVE_DIR': '/kaggle/working',
-       # ... rest remains same
-   }
-   ```
-5. Run all cells (Kaggle automatically allocates Tesla P100 GPU)
-6. Download results from `/kaggle/working/`
-
-
-## System Requirements
-
-### Kaggle Environment (Current/Tested)
-
-- **GPU**: Tesla P100-PCIE-16GB (16GB VRAM) ✅ Verified working
-- **CPU**: Dual-core (4 vCPU available)
-- **RAM**: 30GB system memory
-- **Storage**: 50GB+ for dataset
-- **Python**: 3.11 (pre-installed)
-- **CUDA/cuDNN**: Pre-configured
-
 
 ## Performance Tips
 
