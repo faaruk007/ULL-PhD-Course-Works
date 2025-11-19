@@ -243,7 +243,7 @@ The ODIR-5K dataset contains approximately 7,000 fundus images split into:
 - `slo_fundus`: Fundus image array
 - `dr_class`: Diabetic retinopathy classification label (0 or 1)
 - `male`: Gender information (optional, 0=female, 1=male)
-- And Other metadata information
+- And other metadata information
 **Kaggle Dataset Path:**
 ```
 /kaggle/input/odir-dataset/ODIR_Data/
@@ -260,8 +260,6 @@ The ODIR-5K dataset contains approximately 7,000 fundus images split into:
 └── test/
 ```
 
-Download the dataset from: https://www.kaggle.com/datasets/sir05/odir-5k
-
 ## Directory Structure
 
 ```
@@ -272,10 +270,6 @@ ULL-PhD-Course-Works/
             ├── Full_Python_Scripts.ipynb    # Main training notebook
             ├── README.md                     # This file
             ├── requirements.txt              # Python dependencies
-            └── outputs/ (Kaggle: /kaggle/working/)
-                ├── model_checkpoints/       # Saved best models (.pth files)
-                ├── results/                 # Evaluation metrics and visualizations
-                └── logs/                    # Training logs and plots
 ```
 
 **On Kaggle:** Files are saved to `/kaggle/working/` and available for download after notebook execution.
