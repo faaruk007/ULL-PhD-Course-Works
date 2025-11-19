@@ -177,16 +177,7 @@ if torch.cuda.is_available():
 EOF
 ```
 
-Expected output:
-```
-PyTorch version: 2.0.0
-CUDA available: True
-GPU: Tesla P100-PCIE-16GB  (or your local GPU)
-GPU Memory: 16.00 GB
-CUDA version: 12.1
-```
 
----
 
 ### Troubleshooting Installation
 
@@ -242,14 +233,6 @@ The ODIR-5K dataset contains approximately 7,000 fundus images split into:
 └── test/
 ```
 
-**Local Dataset Path:**
-```
-~/datasets/ODIR_Data/  (or your custom path)
-├── train/
-├── val/
-└── test/
-```
-
 ## Directory Structure
 
 ```
@@ -289,10 +272,6 @@ ULL-PhD-Course-Works/
 
 
 
-
-
-
-
 ## Evaluation Metrics
 
 - **Accuracy**: Overall classification accuracy
@@ -324,19 +303,6 @@ This is the recommended and tested environment.
 5. Run all cells (Kaggle automatically allocates Tesla P100 GPU)
 6. Download results from `/kaggle/working/`
 
-**Kaggle Tips:**
-- No GPU memory issues - P100 has 16GB VRAM
-- Data is mounted automatically
-- Use `!pip install` in cells for any missing packages
-- Results saved to `/kaggle/working/` are downloadable
-- Session timeout: 9 hours (sufficient for 100 epochs)
-
-**Expected Training Time on Kaggle P100:**
-- ResNet50: ~2-3 hours for 100 epochs
-- EfficientNet-B0: ~1.5-2 hours
-- ViT: ~3-4 hours
-
----
 
 ## System Requirements
 
@@ -348,8 +314,6 @@ This is the recommended and tested environment.
 - **Storage**: 50GB+ for dataset
 - **Python**: 3.11 (pre-installed)
 - **CUDA/cuDNN**: Pre-configured
-- **Training Time**: 2-4 hours for 100 epochs
-
 
 
 ## Performance Tips
@@ -360,25 +324,11 @@ This is the recommended and tested environment.
 - Pre-compute augmented images for faster training
 - Monitor validation metrics to tune `FREEZE_PCT`
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@software{dr_detection_2025,
-  title={Diabetic Retinopathy Detection using Transfer Learning on ODIR-5K},
-  author={Faruk},
-  year={2025},
-  url={https://github.com/faaruk007/ULL-PhD-Course-Works/tree/main/Fall-25/Data_Mining/DR-ODIR-5K}
-}
-```
-
 
 ## References
 
-- ODIR-5K Dataset: https://www.kaggle.com/datasets/sir05/odir-5k
-- ImageNet Pretrained Models: https://pytorch.org/vision/main/models.html
-- Transfer Learning Best Practices: https://arxiv.org/abs/1411.1792
+- ODIR-5K Dataset: [https://www.kaggle.com/datasets/sir05/odir-5k](https://odir2019.grand-challenge.org/dataset/)
+- ImageNet Pretrained Models (Pytorch): https://pytorch.org/vision/main/models.html
 
 ## License
 
@@ -392,5 +342,6 @@ For questions or issues, please open an issue on GitHub or contact the maintaine
 ## Acknowledgments
 
 - ODIR-5K dataset curators
-- PyTorch and torchvision teams
-- TIMM (Hugging Face) for efficient model implementations
+- PyTorch and torchvision
+
+
