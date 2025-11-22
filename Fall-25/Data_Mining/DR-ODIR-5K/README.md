@@ -186,11 +186,6 @@ The ODIR-5K dataset contains approximately 7,000 fundus images split into:
 
 **Binary Classification**: DR present (1) vs. no DR (0)
 
-**Dataset Format:** NPZ files containing:
-- `slo_fundus`: Fundus image array
-- `dr_class`: Diabetic retinopathy classification label (0 or 1)
-- `male`: Gender information (optional, 0=female, 1=male)
-- And other metadata information
   
 **Kaggle Dataset Path:**
 ```
