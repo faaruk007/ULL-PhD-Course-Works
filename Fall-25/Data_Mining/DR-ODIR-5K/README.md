@@ -213,15 +213,21 @@ ULL-PhD-Course-Works/
 
 ## Supported Models
 
-1. **VGG16** - Deep convolutional network with 16 layers
+1. **VGG16** - Deep convolutional network with 16 layers!
+
 2. **ResNet50** - Residual network with skip connections
 3. **DenseNet121** - Dense connections for feature reuse
 4. **EfficientNet-B0** - Efficient scaled architecture
 5. **Vision Transformer (ViT)** - Transformer-based architecture
 
-## Training Process[CSCE_566_DR_Final_Architecture_Figure_002.pdf](https://github.com/user-attachments/files/23693885/CSCE_566_DR_Final_Architecture_Figure_002.pdf)
 
 
+Complete Transfer Learning Pipeline: [hd-main-arch](https://github.com/user-attachments/assets/2916dd4d-1279-4a49-9818-a0d17077f8d7)
+
+
+
+
+## Training Process
 1. Data extraction from NPZ files
 2. Class weight computation for imbalanced dataset
 3. Data augmentation and normalization
