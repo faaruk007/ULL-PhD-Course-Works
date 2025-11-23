@@ -7,10 +7,7 @@ This project implements transfer learning models for detecting diabetic retinopa
 The pipeline extracts SLO fundus images from NPZ-formatted ODIR data and trains several deep learning models with class weight balancing to handle data imbalance. The training includes early stopping, learning rate scheduling, and comprehensive evaluation metrics including sensitivity, specificity and gender-stratified AUC analysis.
 
 
-Complete Transfer Learning Pipeline: [hd-main-arch](https://github.com/user-attachments/assets/2916dd4d-1279-4a49-9818-a0d17077f8d7)
-
-
-
+Complete Transfer Learning Pipeline: <img width="1525" height="652" alt="to git" src="https://github.com/user-attachments/assets/4295bdae-d4b2-4eb6-9c9a-ee989aa2acc3" />
 
 ## Features
 
