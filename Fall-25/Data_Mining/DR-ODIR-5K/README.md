@@ -219,7 +219,8 @@ ULL-PhD-Course-Works/
 4. **EfficientNet-B0** - Efficient scaled architecture
 5. **Vision Transformer (ViT)** - Transformer-based architecture
 
-## Training Process
+## Training Process[CSCE_566_DR_Final_Architecture_Figure_002.pdf](https://github.com/user-attachments/files/23693885/CSCE_566_DR_Final_Architecture_Figure_002.pdf)
+
 
 1. Data extraction from NPZ files
 2. Class weight computation for imbalanced dataset
@@ -230,7 +231,8 @@ ULL-PhD-Course-Works/
 7. Validation-based model checkpointing
 8. Early stopping and learning rate scheduling
 9. Test set evaluation with detailed metrics
-![Main Architecture](https://github.com/user-attachments/assets/0d98edbc-e033-44f7-b6eb-53a1adbc8f10)
+    
+![Main Architecture] 
 
 
 
