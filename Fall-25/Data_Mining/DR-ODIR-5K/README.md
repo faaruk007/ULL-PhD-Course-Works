@@ -37,7 +37,8 @@ This is the primary environment where the model has been developed and tested on
    - Download the original datasets and upload it to Kaggle
    - Click **Add Data** → Select ODIR-5K
 
-3. **Upload the notebook** [Full_Python_Scripts.ipynb]:
+3. **Upload the notebook** [Full_Python_Scripts.ipynb]:  **[Full_Python_Scripts.ipynb](https://github.com/faaruk007/ULL-PhD-Course-Works/blob/main/Fall-25/Data_Mining/DR-ODIR-5K/Full_Python_Scripts.ipynb)**
+
 
 4. **In Kaggle notebook, update paths:**
    ```python
