@@ -37,7 +37,7 @@ This is the primary environment where the model has been developed and tested on
    - Download the original datasets and upload it to Kaggle
    - Click **Add Data** → Select ODIR-5K
 
-3. **Upload the notebook** [Full_Python_Scripts.ipynb]:  **[Full_Python_Scripts.ipynb](https://github.com/faaruk007/ULL-PhD-Course-Works/blob/main/Fall-25/Data_Mining/DR-ODIR-5K/Full_Python_Scripts.ipynb)**
+3. **Upload the notebook**:  **[Full_Python_Scripts.ipynb](https://github.com/faaruk007/ULL-PhD-Course-Works/blob/main/Fall-25/Data_Mining/DR-ODIR-5K/Full_Python_Scripts.ipynb)**
 
 
 4. **In Kaggle notebook, update paths:**
@@ -218,7 +218,6 @@ ULL-PhD-Course-Works/
 ## Supported Models
 
 1. **VGG16** - Deep convolutional network with 16 layers!
-
 2. **ResNet50** - Residual network with skip connections
 3. **DenseNet121** - Dense connections for feature reuse
 4. **EfficientNet-B0** - Efficient scaled architecture
@@ -238,8 +237,6 @@ ULL-PhD-Course-Works/
 8. Early stopping and learning rate scheduling
 9. Test set evaluation with detailed metrics
     
-![Main Architecture] 
-
 
 
 ## Evaluation Metrics
