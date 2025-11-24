@@ -262,8 +262,23 @@ ULL-PhD-Course-Works/
 
 ## References
 
-- ODIR-5K Dataset: https://odir2019.grand-challenge.org/dataset/
-- ImageNet Pretrained Models (Pytorch): https://pytorch.org/vision/main/models.html
+1.  ODIR-5K Dataset: https://odir2019.grand-challenge.org/dataset/
+2.  ImageNet Pretrained Models (Pytorch): https://pytorch.org/vision/main/models.html
+3.  VGG: K. Simonyan and A. Zisserman, “Very deep convolutional networks for
+large-scale image recognition,” in International Conference on Learning
+Representations, 2015
+4.  Resnet: K. He, X. Zhang, S. Ren, and J. Sun, “Deep residual learning for image
+recognition,” in Proceedings of the IEEE Conference on Computer Vision
+and Pattern Recognition, 2016, pp. 770–778. 
+5.  Densenet: G. Huang, Z. Liu, L. Van Der Maaten, and K. Q. Weinberger, “Densely
+connected convolutional networks,” in Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2017, pp. 4700–4708.
+6.  Efficientnet:M. Tan and Q. Le, “Efficientnet: Rethinking model scaling for convolutional neural networks,” in International Conference on Machine
+Learning. PMLR, 2019, pp. 6105–6114.
+
+7.  ViT: A. Dosovitskiy, L. Beyer, A. Kolesnikov, D. Weissenborn, X. Zhai,
+T. Unterthiner, M. Dehghani, M. Minderer, G. Heigold, S. Gelly et al.,
+“An image is worth 16x16 words: Transformers for image recognition
+at scale,” arXiv preprint arXiv:2010.11929, 2020.
 
 ## License
 
