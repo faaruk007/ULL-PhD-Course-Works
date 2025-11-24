@@ -255,7 +255,6 @@ ULL-PhD-Course-Works/
 
 - Use GPU for training (automatically detected)
 - Adjust `BATCH_SIZE` if OOM errors occur
-- Reduce `NUM_WORKERS` if data loading is slow
 - Pre-compute augmented images for faster training
 - Monitor validation metrics to tune `FREEZE_PCT`
 
