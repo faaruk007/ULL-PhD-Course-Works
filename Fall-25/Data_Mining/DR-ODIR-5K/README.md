@@ -259,7 +259,9 @@ ULL-PhD-Course-Works/
 
 ## References
 
-1.  ODIR-5K Dataset: https://odir2019.grand-challenge.org/dataset/
+1. P. U. AI Lab and L. Shanggong Medical Technology Co., “Odir-2019:
+A retinal fundus image dataset for ocular disease recognition,” https:
+//odir2019.grand-challenge.org/dataset/, 2019, accessed: 10-25-2025.
 2.  ImageNet Pretrained Models (Pytorch): https://pytorch.org/vision/main/models.html
 3.  K. Simonyan and A. Zisserman, “Very deep convolutional networks for
 large-scale image recognition,” in International Conference on Learning
