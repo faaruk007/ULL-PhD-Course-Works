@@ -53,7 +53,7 @@ This is the primary environment where the model has been developed and tested on
 
 **Kaggle Environment Specs:**
 - GPU: Tesla P100-PCIE-16GB (16GB VRAM)
-- CPU: Dual-core (4 vCPU available)
+- CPU: Dual-core
 - RAM: 30GB system memory
 - No installation required - all libraries pre-installed
 - Batch size: 64 (optimal for P100 memory)
